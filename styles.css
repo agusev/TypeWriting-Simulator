@@ -1,0 +1,44 @@
+body {
+	background-color: darkslategray;
+	color: white;
+	text-align: center;
+}
+
+label,
+textarea {
+	font-size: 1rem;
+	letter-spacing: 1px;
+	margin: auto;
+}
+
+textarea {
+	/* resize: none; */
+	padding: 10px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 2px #999;
+	width: 60vw;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button {
+	height: 30px;
+	width: 50vw;
+	margin: 0;
+	padding: 0;
+}
+
+#text {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#inputArea {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
